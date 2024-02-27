@@ -463,13 +463,23 @@ h3 {
 .contact-info>p {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 18px;
   color: var(--color-white);
   margin-block: 5px;
 }
 
 .contact-info p>i {
   font-size: 18px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #777;
+  transition: transform 0.3s ease;
+}
+
+.contact-info a:hover {
+  transform: scale(1.1);
 }
 
 .contact-info::after {
