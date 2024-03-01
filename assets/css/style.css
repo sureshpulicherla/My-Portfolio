@@ -285,15 +285,16 @@ nav ul li a:hover::after {
 }
 
 .row {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
-  gap: 50px;
+  gap: 80px;
 }
 
 .col {
   display: flex;
-  width: 50%;
+  flex-direction: column;
+  gap: 30px;
 }
 
 /* -- ## --- RESUABLE CSS -- ## -- */
@@ -358,7 +359,7 @@ h3 {
 }
 
 .skills-header {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .skills-list {
